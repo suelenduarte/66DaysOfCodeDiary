@@ -5,4 +5,4 @@
 <p>I created this website for people who are starting to code keep track of their coding progress.</p>
 
 
-![alt test](images/img1.jpg)
+![alt test](images/img1.jpg width:600)
