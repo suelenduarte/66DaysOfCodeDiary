@@ -4,9 +4,9 @@
 
 <p>I created this website for people who are starting to code keep track of their coding progress.</p>
 
-![](https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1.jpg =250x250)
 
 
-<img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1.jpg" width="200" height="400" />
+
+
 
 <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1.jpg" width = 250> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img2.jpg" width = 250> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1=3.jpg" width = 250>
