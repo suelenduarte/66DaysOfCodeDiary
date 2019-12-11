@@ -7,3 +7,4 @@
 ![](https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1.jpg =250x250)
 
 
+<img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1.jpg" width="200" height="400" />
