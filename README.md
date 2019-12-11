@@ -4,5 +4,6 @@
 
 <p>I created this website for people who are starting to code keep track of their coding progress.</p>
 
+<h3>Visuals</h3>
 
 <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/IMG1.png" width = 250 height = 500> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/IMG2.png" width = 250 height = 500> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/IMG3.png" width = 250 height = 500>
