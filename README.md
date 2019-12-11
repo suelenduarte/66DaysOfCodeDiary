@@ -4,4 +4,6 @@
 
 <p>I created this website for people who are starting to code keep track of their coding progress.</p>
 
+![](https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1.jpg =250x250)
+
 
