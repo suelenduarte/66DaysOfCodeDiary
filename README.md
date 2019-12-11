@@ -5,4 +5,4 @@
 <p>I created this website for people who are starting to code keep track of their coding progress.</p>
 
 
-<img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1.jpg" width = 250 height = 450> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img2.jpg" width = 250 height = 450> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img3.jpg" width = 250 height = 450>
+<img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1.jpg" width = 250 height = 500> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img2.jpg" width = 250 height = 500> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img3.jpg" width = 250 height = 500>
