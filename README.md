@@ -4,5 +4,6 @@
 
 <p>I created this website for people who are starting to code keep track of their coding progress.</p>
 
-![GitHub Logo](/images/img1.pjg)
-Format: ![Alt Text](url)
+<img url/images/img1.pjg)
+
+![alt text](http://url/to/images/img1.jpg)
