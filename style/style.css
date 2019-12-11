@@ -1,0 +1,276 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+  padding-top: 0;
+  top: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+h1, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Header Style */
+
+header {
+  background-image: linear-gradient(141deg,#0080C1,#0080C0 51%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 12px solid #B32500;
+  bottom: 0;
+  left: 0;
+  height: 35em;
+  max-width: 100%;
+  right: 0;
+  transform: skewY(2deg);
+  transform-origin: top right;
+  top: 0;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2em;
+  padding-bottom: 1em;
+  padding-top: 5em;
+}
+
+header h1, header p {
+  color: white;
+  padding-bottom: 1em;
+  text-align: center;
+  transform: skewY(-2deg);
+}
+
+header p {
+  font-size: 1.3em;
+}
+
+/* Body Style */
+
+body {
+  font-family: Verdana, Geneva, sans-serif; 
+}
+
+#wrapper {
+  background: rgb(255,186,4, 0.7);
+  font-size: 1em;
+}
+
+main {
+  margin-top: 0;
+  padding-top: 0;
+  top: 0;
+}
+
+/* Calculate 1000 hour Style */
+
+#calculate {
+  background: #000;
+  border: #696969;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  width: 8em;
+}
+
+#day:hover, #calculate:hover {
+  border: #B38201;
+  background: #B38200;
+  color: white;
+  cursor: pointer;
+}
+
+#hour {
+  margin-bottom: 1em;
+  margin-top: 1.2em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  width: 30%;
+}
+
+#output {
+  background: white;
+  color: black;
+  opacity: 0;
+}
+
+/* Questions Textareas Style */
+
+article {
+  background: rgba(179,130,0,1);
+  -webkit-box-shadow: 0 9px 54px -4px rgba(179,130,0,1);
+  -moz-box-shadow: 0 9px 54px -4px rgba(179,130,0,1);
+  box-shadow: 0 9px 54px -4px rgba(179,130,0,1);
+  height: 22em;
+  margin: 2em;
+}
+
+article h3 {
+  color: white;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+article p {
+  color: white;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: left;
+}
+
+.error {
+  color: #B32500;
+  font-size: 1em;
+  padding-left: 0.5em;
+  width: 18em;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0.5em 2em;
+}
+
+#day {
+  background: #000;
+  border: #696969;
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  margin-left: 1.8em;
+  margin-top: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  width: 8em;
+}
+
+#mainForm {
+  background: rgb(255,186,4, 0.7);
+}
+
+label {
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+textarea  {
+  line-height: 1.5em;
+  height: 8em;
+}
+
+/* Footer Style */
+
+footer {
+  background: #B32500;
+  color: white;
+  padding: 3em 5em;
+  text-align: center;
+}
+
+footer a:link {
+  color: white;
+  padding-left: 0.3em;
+}
+
+/* Desktop screens */
+@media only screen and (min-width: 1500px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .contentInfo {
+    display: inline-block;
+    margin-top: 0;
+    padding-left: 3em;
+    padding-right: 2em;
+    padding-top: 0;
+    top: 0;
+    width: 50em;
+  }
+
+  #calculateThousandHour {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+	#firstContent {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  #mainForm {
+    display: inline-block;
+    margin-bottom: 10em;
+    margin-left: 20em;
+    width: 50em;
+  }
+
+  #output {
+    margin-bottom: 1em;
+    opacity: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: 20em;
+  }
+}
+
+/* Tablets, Medium and some Desktop screens */
+@media (min-width:601px) and (max-width:1499px) {
+  .contentInfo {
+    padding-left: 2em;
+    padding-right: 0.7em;
+    padding-top: 2em;
+  }
+
+  #calculateThousandHour {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/* Phones screens */
+@media only screen and (max-width: 600px) {
+
+  .contentInfo {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-top: 0.7em;
+  }
+
+  header {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+  }
+
+  #calculateThousandHour {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+
+
+     
