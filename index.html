@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>66 Days of Code Diary</title>
+  <link rel="stylesheet" href="style/style.css">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script><![endif]-->
+  <script src="js/index.js"></script>
+  <script src="js/CalculateThousandHour.js"></script>
+  <script src="js/AddDay.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>66 Days Of Code Diary</h1>
+      <p>At least 1 hour of code every day for 66 days</p>
+      <p>Keep track of your progress!</p>
+    </header>
+
+    <main>
+      <div id="firstContent">
+        <section class="contentInfo">
+          <h3>How Long Does it Actually Take to Form a New Habit?</h3>
+          <p>A new habit can be hard to pick up but it takes time and perseverance to master something.</p>
+          <p>Most people take 66 days to form a new habit.</p>
+          <h3>Why is it Important to Keep Track of my Progress?</h3>
+          <ul>
+            <li>Seeing your progress day-by-day is going to remind you how much you have improved.</li>
+            <li>By reflecting on these questions every day it is going to make you think about what you have achieved
+              today, what you need to work on more and plan your goals for tomorrow.</li>
+          </ul>
+
+          <h3>How Long Does it Take to Learn a New Skill?</h3>
+          <p>It can take between 20 to 1000 hours to learn a new skill and a lifetime to master that skill.
+          </p>
+          <form id="calculateThousandHour">
+            <label for="hour">How many hours a day will you be coding?</label>
+            <input type="number" id="hour" value="" min="1">
+            <input type="button" value="Calculate" id="calculate" />
+          </form>
+          <p id="output">
+
+          </p>
+        </section>
+        <form id="mainForm">
+          <div class="textarea">
+            <input type="text" name="text" class="error" value="" style="opacity: 0">
+            <label for="questionOne">* What did I accomplish today?</label>
+            <textarea class="questionOne" id="questionOne" name="questionOne" required maxlength="200"></textarea>
+
+          </div>
+          <div class="textarea">
+            <label for="questionTwo">* What can I improve on?</label>
+            <textarea class="questionTwo" id="questionTwo" name="questionTwo" required maxlength="200"></textarea>
+
+          </div>
+          <div class="textarea">
+            <label for="questionThree">* What are my goals for tomorrow?</label>
+            <textarea class="questionThree" id="questionThree" name="questionThree" required maxlength="200"></textarea>
+
+          </div>
+          <input type="button" value="Add Day 1" id="day">
+
+        </form>
+      </div>
+
+      <section class="content">
+
+
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Copyright 2019 | 66 Days Of Code Diary</p>
+    </footer>
+  </div>
+</body>
+
+</html>
