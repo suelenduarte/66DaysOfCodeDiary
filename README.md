@@ -9,4 +9,4 @@
 
 
 
-<img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1.jpg" width = 250> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img2.jpg" width = 250> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1=3.jpg" width = 250>
+<img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img1.jpg" width = 250> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img2.jpg" width = 250> <img src="https://suelenduarte.github.io/66DaysOfCodeDiary/images/img3.jpg" width = 250>
